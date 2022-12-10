@@ -1,0 +1,37 @@
+.projects-block {
+  padding-top: 0;
+}
+
+.our-projects-list {
+  display: flex;
+  gap: 30px;
+}
+
+.our-projects-item {
+  flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+}
+
+/* .our-projects-img {
+} */
+
+.our-projects-label-wrap {
+  width: 370px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-transparent-color);
+  position: absolute;
+  bottom: 0px;
+}
+
+.our-projects-label-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
