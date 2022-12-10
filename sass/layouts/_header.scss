@@ -46,11 +46,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-nav-link:hover,
-.header-nav-link:focus {
-  color: var(--blue-color);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
 .header-contacts-list {
@@ -75,11 +74,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-contacts-link:hover,
-.header-contacts-link:focus {
-  color: var(--blue-color);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
 .header-contacts-icon {
@@ -89,17 +87,16 @@
 
 .current {
   color: var(--blue-color);
-}
-
-.current::after {
-  content: '';
-  color: currentColor;
-  border-style: solid;
-  display: block;
-  width: 100%;
-  border-radius: 2px;
-  height: 4px;
-  bottom: -1px;
-  left: 0;
-  position: absolute;
+  &::after {
+    content: '';
+    color: currentColor;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    height: 4px;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+  }
 }

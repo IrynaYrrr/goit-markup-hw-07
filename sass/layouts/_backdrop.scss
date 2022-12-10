@@ -32,10 +32,9 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
-}
-
-.backdrop-modal-close-btn:hover {
-  fill: var(--blue-color);
+  &:hover {
+    fill: var(--blue-color);
+  }
 }
 
 /* .backdrop-modal-close-icon {
@@ -107,17 +106,15 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-input-text:focus {
-  border-color: var(--blue-color);
-}
-
-.modal-input-text::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--grey-color);
+  &:focus {
+    border-color: var(--blue-color);
+  }
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--grey-color);
+  }
 }
 
 .modal-input-icon {
@@ -128,10 +125,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-input-text:focus + .modal-input-icon {
-  fill: var(--blue-color);
+  .modal-input-text:focus + & {
+    fill: var(--blue-color);
+  }
 }
 
 .modal-textarea-comment {
@@ -146,17 +142,15 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-textarea-comment:focus {
-  border-color: var(--blue-color);
-}
-
-.modal-textarea-comment::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--grey-color);
+  &:focus {
+    border-color: var(--blue-color);
+  }
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--grey-color);
+  }
 }
 
 .modal-checkbox-wrap {
@@ -185,12 +179,11 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-check-input:checked + .modal-label-agree span {
-  background-color: var(--blue-color);
-  border: none;
-  fill: var(--white-text-color);
+  .modal-check-input:checked + & {
+    background-color: var(--blue-color);
+    border: none;
+    fill: var(--white-text-color);
+  }
 }
 
 /* .modal-check-icon {
@@ -220,10 +213,9 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-order-btn:hover,
-.modal-order-btn:focus {
+  &:hover,
+  &:focus {
   background-color: var(--button-active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 }
