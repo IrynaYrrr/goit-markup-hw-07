@@ -250,17 +250,13 @@ body {
   background-color: var(--button-active-color);
 }
 
-/* .advantages-block {
-} */
 .our-advantages-list {
   display: flex;
   gap: 30px;
 }
-
 .our-advantages-item {
   flex-basis: calc((100% - 90px) / 4);
 }
-
 .our-advantages-card {
   display: flex;
   align-items: center;
@@ -271,9 +267,6 @@ body {
   height: 120px;
   background-color: var(--background-light-color);
 }
-
-/* .our-advantages-icon {
-} */
 .our-advantages-title {
   text-transform: uppercase;
   font-weight: 700;
@@ -281,7 +274,6 @@ body {
   line-height: 1.17;
   margin-bottom: 10px;
 }
-
 .our-advantages-text {
   font-size: 14px;
   line-height: 1.71;
