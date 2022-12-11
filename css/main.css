@@ -276,14 +276,10 @@ body {
   display: flex;
   gap: 30px;
 }
-
 .our-projects-item {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
-
-/* .our-projects-img {
-} */
 .our-projects-label-wrap {
   width: 370px;
   height: 70px;
@@ -294,7 +290,6 @@ body {
   position: absolute;
   bottom: 0px;
 }
-
 .our-projects-label-text {
   font-size: 14px;
   font-weight: 700;
