@@ -437,16 +437,12 @@ body {
   background-color: var(--background-dark-color);
   padding: 60px 0 60px 0;
 }
-
 .footer-block {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 70px;
 }
-
-/* .footer-contacts-wrap {
-} */
 .footer-logo-link {
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -455,24 +451,18 @@ body {
   line-height: 1.17;
   color: var(--white-text-color);
 }
-
 .footer-logo-text {
   color: var(--blue-color);
 }
-
-/* .footer-address {
-} */
 .footer-address-list {
   margin-top: 20px;
 }
-
 .footer-address-item {
   margin-bottom: 9px;
 }
 .footer-address-item:last-child {
   margin-bottom: 0;
 }
-
 .footer-address-map-link {
   text-decoration: none;
   font-size: 14px;
@@ -481,9 +471,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
-
-.footer-address-mail-link,
-.footer-address-tel-link {
+.footer-address-mail-link, .footer-address-tel-link {
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
@@ -491,9 +479,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-white-color);
 }
-
-/* .footer-social-wrap {
-} */
 .footer-social-join {
   font-size: 14px;
   font-weight: 700;
@@ -503,18 +488,15 @@ body {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
-
 .footer-social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
 .footer-social-item {
   width: 44px;
   height: 44px;
 }
-
 .footer-social-link {
   display: flex;
   align-items: center;
@@ -531,7 +513,6 @@ body {
 .footer-social-link:hover, .footer-social-link:focus {
   background-color: var(--blue-color);
 }
-
 .footer-social-icon {
   fill: currentColor;
   transition-property: fill;
@@ -544,9 +525,6 @@ body {
 .footer-social-link:focus .footer-social-icon {
   fill: var(--white-text-color);
 }
-
-/* .footer-subscribe-wrap {
-} */
 .footer-subscribe-to {
   font-size: 14px;
   font-weight: 700;
@@ -556,13 +534,9 @@ body {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
-
-/* .footer-subscribe-form {
-} */
 .footer-subscribe-container {
   display: flex;
 }
-
 .footer-subscribe-input {
   width: 358px;
   height: 50px;
@@ -598,7 +572,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--placeholder-text-color);
 }
-
 .footer-subscribe-btn {
   display: flex;
   align-items: center;
@@ -625,7 +598,6 @@ body {
 .footer-subscribe-btn:hover, .footer-subscribe-btn:focus {
   background-color: var(--button-active-color);
 }
-
 .footer-subscribe-icon {
   fill: var(--white-text-color);
   position: absolute;
