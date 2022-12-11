@@ -862,7 +862,7 @@ body {
   color: var(--link-condition-color);
 }
 
-.modal-order-btn {
+.modal-send-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -883,7 +883,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-order-btn:hover, .modal-order-btn:focus {
+.modal-send-btn:hover, .modal-send-btn:focus {
   background-color: var(--button-active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
