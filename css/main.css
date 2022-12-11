@@ -396,18 +396,14 @@ body {
   fill: var(--white-text-color);
 }
 
-/* .customers-block {
-} */
 .our-customers-list {
   display: flex;
   gap: 30px;
 }
-
 .our-customers-item {
   width: 170px;
   height: 92px;
 }
-
 .our-customers-link {
   display: flex;
   align-items: center;
@@ -424,7 +420,6 @@ body {
 .our-customers-link:hover, .our-customers-link:focus {
   border-color: var(--blue-color);
 }
-
 .our-customers-icon {
   fill: currentColor;
   transition-property: fill;
