@@ -237,14 +237,14 @@ body {
   background-color: var(--button-active-color);
 }
 
-.our-advantages-list {
+.advantages__list {
   display: flex;
   gap: 30px;
 }
-.our-advantages-item {
+.advantages__item {
   flex-basis: calc((100% - 90px) / 4);
 }
-.our-advantages-card {
+.advantages__card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,14 +254,14 @@ body {
   height: 120px;
   background-color: var(--background-light-color);
 }
-.our-advantages-title {
+.advantages__title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   margin-bottom: 10px;
 }
-.our-advantages-text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-color);
