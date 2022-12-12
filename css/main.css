@@ -368,15 +368,15 @@ body {
   fill: var(--white-text-color);
 }
 
-.our-customers-list {
+.customers__list {
   display: flex;
   gap: 30px;
 }
-.our-customers-item {
+.customers__item {
   width: 170px;
   height: 92px;
 }
-.our-customers-link {
+.customers__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -389,19 +389,19 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-customers-link:hover, .our-customers-link:focus {
+.customers__link:hover, .customers__link:focus {
   border-color: var(--blue-color);
 }
-.our-customers-icon {
+.customers__icon {
   fill: currentColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-customers-link:hover .our-customers-icon {
+.customers__link:hover .customers__icon {
   fill: var(--blue-color);
 }
-.our-customers-link:focus .our-customers-icon {
+.customers__link:focus .customers__icon {
   fill: var(--blue-color);
 }
 

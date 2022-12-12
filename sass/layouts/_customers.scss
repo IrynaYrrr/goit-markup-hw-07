@@ -1,15 +1,13 @@
-.our-customers {
-  &-list {
+.customers {
+  &__list {
     display: flex;
     gap: 30px;
   }
-
-  &-item {
+  &__item {
     width: 170px;
     height: 92px;
   }
-
-  &-link {
+  &__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,16 +24,15 @@
       border-color: var(--blue-color);
     }
   }
-
-  &-icon {
+  &__icon {
     fill: currentColor;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    .our-customers-link:hover & {
+    .customers__link:hover & {
       fill: var(--blue-color);
     }
-    .our-customers-link:focus & {
+    .customers__link:focus & {
       fill: var(--blue-color);
     }
   }
