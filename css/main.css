@@ -237,14 +237,14 @@ body {
   background-color: var(--button-active-color);
 }
 
-.advantages__list {
+.points__list {
   display: flex;
   gap: 30px;
 }
-.advantages__item {
+.points__list-item {
   flex-basis: calc((100% - 90px) / 4);
 }
-.advantages__card {
+.points__list-card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,14 +254,14 @@ body {
   height: 120px;
   background-color: var(--background-light-color);
 }
-.advantages__title {
+.points__list-title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   margin-bottom: 10px;
 }
-.advantages__text {
+.points__list-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-color);
