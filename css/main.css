@@ -827,14 +827,14 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.portfolio-btns-list {
+.select-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
-.portfolio-select-btn {
+.select-list__button {
   font-weight: 500;
   font-size: 16px;
   font-family: "Roboto", sans serif;
@@ -849,39 +849,40 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-select-btn:hover {
+.select-list__button:hover {
   background-color: var(--blue-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.portfolio-select-btn:focus {
+.select-list__button:focus {
   background-color: var(--blue-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.portfolio-project-list {
+
+.gallery-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-project-item {
+.gallery-list__item {
   width: calc((100% - 60px) / 3);
 }
-.portfolio-project-link {
+.gallery-list__link {
   display: block;
   text-decoration: none;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-project-link:hover {
+.gallery-list__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-project-wrap {
+.gallery-list__wrap {
   position: relative;
   overflow: hidden;
 }
-.portfolio-project-text-top {
+.gallery-list__text-top {
   position: absolute;
   top: 0;
   font-size: 18px;
@@ -897,10 +898,10 @@ body {
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
-.portfolio-project-link:hover .portfolio-project-text-top {
+.gallery-list__link:hover .gallery-list__text-top {
   transform: translateY(0);
 }
-.portfolio-project-text-wrap {
+.gallery-list__text-wrap {
   text-align: start;
   padding: 20px 24px;
   background-color: var(--white-text-color);
@@ -908,14 +909,14 @@ body {
   border-right: 1px solid var(--line-color);
   border-left: 1px solid var(--line-color);
 }
-.portfolio-project-name {
+.gallery-list__name {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
 }
-.portfolio-project-type {
+.gallery-list__type {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
