@@ -1,11 +1,11 @@
-.points__list {
+.points-list {
   display: flex;
   gap: 30px;
 
-  &-item {
+  &__item {
     flex-basis: calc((100% - 90px) / 4);
   }
-  &-card {
+  &__card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,14 +15,14 @@
     height: 120px;
     background-color: var(--background-light-color);
   }
-  &-title {
+  &__title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     margin-bottom: 10px;
   }
-  &-text {
+  &__text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--grey-color);

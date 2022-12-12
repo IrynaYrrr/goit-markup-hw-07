@@ -262,14 +262,14 @@ body {
   background-color: var(--button-active-color);
 }
 
-.points__list {
+.points-list {
   display: flex;
   gap: 30px;
 }
-.points__list-item {
+.points-list__item {
   flex-basis: calc((100% - 90px) / 4);
 }
-.points__list-card {
+.points-list__card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,14 +279,14 @@ body {
   height: 120px;
   background-color: var(--background-light-color);
 }
-.points__list-title {
+.points-list__title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   margin-bottom: 10px;
 }
-.points__list-text {
+.points-list__text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-color);
