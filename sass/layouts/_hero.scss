@@ -1,4 +1,4 @@
-.hero-block {
+.hero {
   background-color: var(--hero-bg-color);
   background-image: var(--gradient), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -7,10 +7,7 @@
   padding: 200px 0;
   max-width: 1600px;
   margin: 0 auto;
-}
-
-.hero {
-  &-title {
+  &__title {
     width: 696px;
     margin: 0 auto;
     text-decoration: none;
@@ -23,8 +20,7 @@
     color: var(--white-text-color);
     margin-bottom: 30px;
   }
-
-  &-btn {
+  &__btn {
     display: flex;
     align-items: center;
     justify-content: center;

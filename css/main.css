@@ -190,7 +190,7 @@ body {
   position: absolute;
 }
 
-.hero-block {
+.hero {
   background-color: var(--hero-bg-color);
   background-image: var(--gradient), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -200,8 +200,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
-
-.hero-title {
+.hero__title {
   width: 696px;
   margin: 0 auto;
   text-decoration: none;
@@ -214,7 +213,7 @@ body {
   color: var(--white-text-color);
   margin-bottom: 30px;
 }
-.hero-btn {
+.hero__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,7 +233,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--button-active-color);
 }
 
