@@ -292,19 +292,19 @@ body {
   color: var(--grey-color);
 }
 
-.projects-block {
+.projects {
   padding-top: 0;
 }
 
-.our-projects-list {
+.image-list {
   display: flex;
   gap: 30px;
 }
-.our-projects-item {
+.image-list__item {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
-.our-projects-label-wrap {
+.image-list__label-wrap {
   width: 370px;
   height: 70px;
   display: flex;
@@ -314,7 +314,7 @@ body {
   position: absolute;
   bottom: 0px;
 }
-.our-projects-label-text {
+.image-list__label-text {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;

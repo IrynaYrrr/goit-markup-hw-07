@@ -1,19 +1,16 @@
-.projects-block {
+.projects {
   padding-top: 0;
 }
 
-.our-projects {
-  &-list {
-    display: flex;
-    gap: 30px;
-  }
+.image-list {
+  display: flex;
+  gap: 30px;
 
-  &-item {
+  &__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
   }
-
-  &-label-wrap {
+  &__label-wrap {
     width: 370px;
     height: 70px;
     display: flex;
@@ -23,8 +20,7 @@
     position: absolute;
     bottom: 0px;
   }
-
-  &-label-text {
+  &__label-text {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
