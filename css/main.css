@@ -433,32 +433,34 @@ body {
   background-color: var(--background-dark-color);
   padding: 60px 0 60px 0;
 }
-.footer-block {
+.footer__container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 70px;
 }
-.footer-logo-link {
+
+.logo-link {
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
 }
-.footer-logo-text {
+.logo-link__text {
   color: var(--blue-color);
 }
-.footer-address-list {
+
+.data-list {
   margin-top: 20px;
 }
-.footer-address-item {
+.data-list__item {
   margin-bottom: 9px;
 }
-.footer-address-item:last-child {
+.data-list__item:last-child {
   margin-bottom: 0;
 }
-.footer-address-map-link {
+.data-list__map-link {
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
@@ -466,7 +468,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
-.footer-address-mail-link, .footer-address-tel-link {
+.data-list__mail-link, .data-list__tel-link {
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
@@ -474,7 +476,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-white-color);
 }
-.footer-social-join {
+
+.social-accede__uptitle {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -483,16 +486,17 @@ body {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
-.footer-social-list {
+
+.join-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-.footer-social-item {
+.join-list__item {
   width: 44px;
   height: 44px;
 }
-.footer-social-link {
+.join-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -503,22 +507,23 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover, .footer-social-link:focus {
+.join-list__link:hover, .join-list__link:focus {
   background-color: var(--blue-color);
 }
-.footer-social-icon {
+.join-list__icon {
   fill: currentColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover .footer-social-icon {
+.join-list__link:hover .join-list__icon {
   fill: var(--white-text-color);
 }
-.footer-social-link:focus .footer-social-icon {
+.join-list__link:focus .join-list__icon {
   fill: var(--white-text-color);
 }
-.footer-subscribe-to {
+
+.subscribe__uptitle {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -527,10 +532,11 @@ body {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
-.footer-subscribe-container {
+
+.subscribe-form__container {
   display: flex;
 }
-.footer-subscribe-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -544,28 +550,28 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-subscribe-input:focus {
+.subscribe-form__input:focus {
   border-color: var(--white-text-color);
 }
-.footer-subscribe-input::-moz-placeholder {
+.subscribe-form__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--placeholder-text-color);
 }
-.footer-subscribe-input:-ms-input-placeholder {
+.subscribe-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--placeholder-text-color);
 }
-.footer-subscribe-input::placeholder {
+.subscribe-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--placeholder-text-color);
 }
-.footer-subscribe-btn {
+.subscribe-form__button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -588,10 +594,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
-.footer-subscribe-btn:hover, .footer-subscribe-btn:focus {
+.subscribe-form__button:hover, .subscribe-form__button:focus {
   background-color: var(--button-active-color);
 }
-.footer-subscribe-icon {
+.subscribe-form__icon {
   fill: var(--white-text-color);
   position: absolute;
   right: 28px;
