@@ -1,8 +1,7 @@
-.customers {
-  &__list {
-    display: flex;
-    gap: 30px;
-  }
+.company-list {
+  display: flex;
+  gap: 30px;
+
   &__item {
     width: 170px;
     height: 92px;
@@ -29,10 +28,10 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    .customers__link:hover & {
+    .company-list__link:hover & {
       fill: var(--blue-color);
     }
-    .customers__link:focus & {
+    .company-list__link:focus & {
       fill: var(--blue-color);
     }
   }
