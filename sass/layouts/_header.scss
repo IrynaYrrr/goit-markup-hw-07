@@ -1,40 +1,39 @@
 .header {
   border-bottom: 1px solid var(--line-color);
 
-  &-block {
+  &__container {
     display: flex;
     align-items: center;
   }
-
-  &-logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
-    text-decoration: none;
-    margin-right: 93px;
-    padding: 24px 0 25px 0;
-  }
-
-  &-web {
-    color: var(--blue-color);
-  }
-
-  &-nav {
+  &__navigation {
     margin-right: auto;
   }
+}
 
-  &-nav-list {
-    display: flex;
-    gap: 50px;
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+  margin-right: 93px;
+  padding: 24px 0 25px 0;
+
+  &__web {
+    color: var(--blue-color);
   }
+}
 
-  &-nav-item {
+.nav-list {
+  display: flex;
+  gap: 50px;
+
+  &__item {
     display: flex;
     position: relative;
   }
 
-  &-nav-link {
+  &__link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -49,19 +48,18 @@
       color: var(--blue-color);
     }
   }
+}
 
-  &-contacts-list {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 
-  &-contacts-item {
+  &__item {
     flex-direction: row;
     align-items: stretch;
   }
-
-  &-contacts-link {
+  &__link {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -77,8 +75,7 @@
       color: var(--blue-color);
     }
   }
-
-  &-contacts-icon {
+  &__icon {
     margin-right: 10px;
     fill: currentColor;
   }
