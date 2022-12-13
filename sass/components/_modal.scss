@@ -1,4 +1,4 @@
-.backdrop {
+.modal {
   position: fixed;
   top: 0;
   width: 100%;
@@ -6,7 +6,7 @@
   background-color: var(--backdrop-bg-color);
   transition: opacity 300ms linear, visibility 300ms linear;
 
-  &-modal-block {
+  &__container {
     width: 528px;
     min-height: 581px;
     background-color: var(--white-text-color);
@@ -19,7 +19,7 @@
     padding: 40px;
   }
 
-  &-modal-close-btn {
+  &__close-btn {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -36,7 +36,7 @@
     }
   }
 
-  &-modal-title {
+  &__title {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.15;
@@ -67,16 +67,17 @@
   word-wrap: normal !important;
 }
 
-.backdrop.is-hidden .backdrop-modal-block {
+.modal.is-hidden .modal__container {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal {
-  &-field {
+.modal-form {
+
+  &__field {
     margin-bottom: 10px;
   }
 
-  &-input-label {
+  &__input-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -86,11 +87,11 @@
     margin-bottom: 4px;
   }
 
-  &-input-wrap {
+  &__input-wrap {
     position: relative;
   }
 
-  &-input-text {
+  &__input-text {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -112,7 +113,7 @@
     }
   }
 
-  &-input-icon {
+  &__input-icon {
     position: absolute;
     left: 12px;
     top: 50%;
@@ -120,12 +121,12 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    .modal-input-text:focus + & {
+    .modal-form__input-text:focus + & {
       fill: var(--blue-color);
     }
   }
 
-  &-textarea-comment {
+  &__textarea-comment {
     width: 100%;
     height: 120px;
     border: 1px solid var(--border-input);
@@ -148,12 +149,12 @@
     }
   }
 
-  &-checkbox-wrap {
+  &__checkbox-wrap {
     margin-top: 10px;
     margin-bottom: 30px;
   }
 
-  &-label-agree {
+  &__label-agree {
     font-size: 14px;
     color: var(--grey-color);
     display: flex;
@@ -161,7 +162,7 @@
     justify-content: center;
   }
 
-  &-label-agree span {
+  &__label-agree span {
     width: 16px;
     height: 15px;
     border: 2px solid var(--black-color);
@@ -174,18 +175,18 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    .modal-check-input:checked + & {
+    .modal-form__check-input:checked + & {
       background-color: var(--blue-color);
       border: none;
       fill: var(--white-text-color);
     }
   }
 
-  &-link-condition {
+  &__link-condition {
     color: var(--link-condition-color);
   }
 
-  &-send-btn {
+  &__send-btn {
     display: flex;
     align-items: center;
     justify-content: center;
